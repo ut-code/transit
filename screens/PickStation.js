@@ -9,11 +9,10 @@ const styles = StyleSheet.create({
 });
 
 const PickStation = ({navigation}) => {
-// export default function PickStation(data){
     return(
         <View style={styles.container}>
             <Button
-                title="plus"
+                title="表参道"
                 onPress={() => navigation.navigate("PickOrigin")}
             />
         </View>

@@ -9,15 +9,26 @@ const styles = StyleSheet.create({
 });
 
 const PickOrigin = (data) => {
-// export default function PickOrigin(data){
     return(
     <View style={styles.container}>
-        {/* <Button
-            title="plus"
-            onPress={() => {
-                data.navigation.navigate("PickOrigin");
-            }}
-        /> */}
+        <Button
+            title="千代田線ホーム"
+            // onPress={() => {
+            //     data.navigation.navigate("PickOrigin");
+            // }}
+        />
+        <Button
+            title="半蔵門線ホーム"
+            // onPress={() => {
+            //     data.navigation.navigate("PickOrigin");
+            // }}
+        />
+        <Button
+            title="銀座線ホーム"
+            // onPress={() => {
+            //     data.navigation.navigate("PickOrigin");
+            // }}
+        />
     </View>
     )
 }
